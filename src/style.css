@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+    min-width: 1200px; /* Set to your desired minimum width */
+    min-height: 1200px; /* Set to your desired minimum height */
+
+    
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
